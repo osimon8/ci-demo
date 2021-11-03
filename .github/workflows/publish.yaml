@@ -10,7 +10,7 @@ jobs:
           npm install
           npm run lint
           git checkout
-      -uses: JS-DevTools/npm-publish@v1
+      - uses: JS-DevTools/npm-publish@v1
       with:
         registry: https://npm.pkg.github.com
         token: ${{ secrets.GITHUB_TOKEN }
